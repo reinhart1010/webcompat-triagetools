@@ -11,7 +11,7 @@ from xml.dom.minidom import parse
 import xml.dom.minidom
 
 contact_text_list = ["contact", "about", "kontakt", "kontakta", "kontak", "hubungi"]
-url_blocklist = ["blog", "post", "thread", "features"]
+url_blocklist = ["articles", "blog", "features", "post", "thread", "products"]
 
 
 def exists(string, arr):
